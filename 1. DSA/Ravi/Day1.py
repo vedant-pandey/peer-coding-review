@@ -1,5 +1,5 @@
 print("Hello world")
 
 """
-Run => pyrhon Day1.py
+Run => python Day1.py
 """
