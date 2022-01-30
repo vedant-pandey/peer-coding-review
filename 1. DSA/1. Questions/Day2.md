@@ -3,10 +3,10 @@
 
 ## I. Implement the following algorithms
 
-- Linear search
-- Binary search
-- Bubble sort
-- Merge sort
+- Linear search - (int[] unsortedArr, int elemToFind)
+- Binary search - (int[] sortedArr, int elemToFind)
+- Bubble sort - (int[] unsortedArr)
+- Merge sort - (int[] unsortedArr)
 
 ---
 
