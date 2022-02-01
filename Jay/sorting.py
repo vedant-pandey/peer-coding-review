@@ -40,8 +40,8 @@ def merge_sort(nums, asc = 1): # asc = -1 for descending order
             nums[k] = R[j]
             j+=1
             k+=1
+    return nums
 
 
 arr = [7, 1, 3, 5, 10]
-merge_sort(arr, -1)
-print(arr)
+print(merge_sort(arr, -1))
