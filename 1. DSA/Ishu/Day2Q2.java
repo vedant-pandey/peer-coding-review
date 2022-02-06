@@ -21,7 +21,7 @@ public class Day2Q2 {
     public static void main(String args[]) {
         int number = 10;
         int result = magicNumber(number);
-        System.out.println("The " + number + " Magic Number is : " + result);
+        System.out.println("The " + number + " Magic Number is :- " + result);
         int expectedResult = 650;
         if (result == expectedResult) {
             System.out.println("The answer is correct.");

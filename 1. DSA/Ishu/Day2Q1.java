@@ -142,7 +142,7 @@ public class Day2Q1 {
         long start4 = System.currentTimeMillis();
         int[] mergearray2 = mergeSort(new int[] {3, 4, 1, 5, 2},5);
         long end4 = System.currentTimeMillis();
-        System.out.println("MERGE SORT O(n log n)  " + Arrays.toString(mergearray2));
+        System.out.println("MERGE SORT O(n log n) : " + Arrays.toString(mergearray2));
         System.out.println("MERGE SORT " +   (end4 - start4) + "ms");
 
     }
