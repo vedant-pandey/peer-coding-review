@@ -1,3 +1,9 @@
+/**
+ * @author ishu
+ *
+ *         Steps to run the file :- javac Day2.java, java Day2
+ *         Check the console for output
+ */
 public class Day2Q2 {
     public static int magicNumber(int number) {
         int power = 1;

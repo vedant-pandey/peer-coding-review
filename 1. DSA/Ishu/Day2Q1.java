@@ -1,11 +1,10 @@
-import java.util.Arrays;
-
 /**
  * @author ishu
  *
  *         Steps to run the file :- javac Day2.java, java Day2
  *         Check the console for output
  */
+import java.util.Arrays;
 public class Day2Q1 {
     public static int linearSearch(int[] unsortedArr, int elemToFind) {
         for (int index = 0; index < unsortedArr.length; index++) { // Loop to visit each element of the array
