@@ -127,8 +127,8 @@ public class Day2Q1 {
        long start2 = System.currentTimeMillis();
        int[] bubblearray2 = bubbleSort(new int[] {3, 4, 3, 1, 2});
        long end2 = System.currentTimeMillis();
-       System.out.println("BUBBLE SORT 0(n^2)  " + Arrays.toString(bubblearray2));
-       System.out.println("BUBBLE SORT " +   (end2 - start2) + "ms");
+       System.out.println("BUBBLE SORT 0(n^2) :-  " + Arrays.toString(bubblearray2));
+       System.out.println("BUBBLE SORT :- " +   (end2 - start2) + "ms");
 
         // MERGE SORT
         // input= {1, 2, 3, 4, 5} , length = 5 Output = {1, 2, 3, 4, 5}
